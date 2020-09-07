@@ -1,1 +1,95 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+#navbar {
+  background: #E6F0FC;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .logo {
+  width: 160px;
+}
+
+.nav .menu-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .menu-left .menu-list {
+  margin-left: 50px;
+}
+
+.nav .menu-left .menu-list a {
+  padding: 0px 15px;
+  font-size: 0.9rem;
+  line-height: 64px;
+  color: #505f79;
+}
+
+.nav .login {
+  background: #60A8F4;
+  color: #fff;
+  padding: 10px 30px;
+  border: 1px solid #60A8F4;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.nav .regs {
+  color: #60A8F4;
+  padding: 10px 30px;
+  border: 1px solid #60A8F4;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
