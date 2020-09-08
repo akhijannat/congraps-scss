@@ -120,6 +120,14 @@
   background: linear-gradient(165.52deg, #fe7d4a 13.19%, #ffa531 72.85%);
 }
 
+#banner-1 .banner1-content .button:hover {
+  -webkit-transform: translateY(-10px) scale(1.05);
+          transform: translateY(-10px) scale(1.05);
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: linear-gradient(165.52deg, #fe7d4a 13.19%, #ffa531 72.85%);
+}
+
 * {
   padding: 0;
   margin: 0;
