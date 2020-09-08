@@ -24,7 +24,14 @@
         margin-bottom: 70px;
         }
 
-        
+        .button {
+        display: inline-block;
+        padding: 12px 70px;
+        font-size: 12px;
+        transform: translateY(-10px) scale(1.05);
+        transition: 1s;
+        background: linear-gradient(165.52deg, #fe7d4a 13.19%, #ffa531 72.85%);
+        }
     }
     
 }
