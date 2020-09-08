@@ -1,12 +1,14 @@
 #banner-1 {
     background: url('../images/banner-1.png') no-repeat center center/cover;
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
     .banner1-content {
-        display: flex;
-        flex-direction: column;
+        
 
         h1 {
             margin-bottom: 25px;
