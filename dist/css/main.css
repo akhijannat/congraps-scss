@@ -2,9 +2,11 @@
   position: fixed;
   left: 0;
   right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
-.nav {
+#navbar .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,11 +18,11 @@
           align-items: center;
 }
 
-.nav .logo {
+#navbar .nav .logo {
   width: 160px;
 }
 
-.nav .menu-left {
+#navbar .nav .menu-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,22 +34,22 @@
           align-items: center;
 }
 
-.nav .menu-left .menu-list {
+#navbar .nav .menu-left .menu-list {
   margin-left: 50px;
 }
 
-.nav .menu-left .menu-list a {
+#navbar .nav .menu-left .menu-list a {
   padding: 0px 15px;
   font-size: 0.9rem;
   line-height: 64px;
   color: #505f79;
 }
 
-.nav .login {
-  background: #60A8F4;
+#navbar .nav .login {
+  background: #60a8f4;
   color: #fff;
   padding: 10px 30px;
-  border: 1px solid #60A8F4;
+  border: 1px solid #60a8f4;
   border-radius: 20px;
   display: inline-block;
   font-size: 12px;
@@ -56,15 +58,19 @@
   margin-right: 10px;
 }
 
-.nav .regs {
-  color: #60A8F4;
+#navbar .nav .regs {
+  color: #60a8f4;
   padding: 10px 30px;
-  border: 1px solid #60A8F4;
+  border: 1px solid #60a8f4;
   border-radius: 20px;
   display: inline-block;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+nav.scroll {
+  background-color: #fff;
 }
 
 #banner-1 {

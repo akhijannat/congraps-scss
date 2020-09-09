@@ -1,63 +1,66 @@
 #navbar {
-    // background: #E5F0FB;
-    position: fixed;
-    left: 0;
-    right: 0;
-}
+  // background: #E5F0FB;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: all .5s ease-in-out;
 
-.nav {
+  .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-
     .logo {
-        width: 160px;
+      width: 160px;
     }
 
     .menu-left {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
 
-       .menu-list {
-
+      .menu-list {
         margin-left: 50px;
 
         a {
-            padding: 0px 15px;
-            font-size: 0.9rem;
-            line-height: 64px;
-            color: #505f79;
+          padding: 0px 15px;
+          font-size: 0.9rem;
+          line-height: 64px;
+          color: #505f79;
         }
-
-        
-       }
-
-      
+      }
     }
 
     .login {
-        background: #60A8F4;
-        color: #fff;
-        padding: 10px 30px;
-        border: 1px solid #60A8F4;
-        border-radius: 20px;
-        display: inline-block;
-        font-size: 12px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-right: 10px;
+      background: #60a8f4;
+      color: #fff;
+      padding: 10px 30px;
+      border: 1px solid #60a8f4;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-right: 10px;
     }
 
     .regs {
-        color: #60A8F4;
-        padding: 10px 30px;
-        border: 1px solid #60A8F4;
-        border-radius: 20px;
-        display: inline-block;
-        font-size: 12px;
-        font-weight: bold;
-        text-transform: uppercase;
+      color: #60a8f4;
+      padding: 10px 30px;
+      border: 1px solid #60a8f4;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
     }
+
+
+    
+   
+  }
+}
+nav.scroll {
+    background-color: #fff;
+    // padding: 8px 0;
 }
