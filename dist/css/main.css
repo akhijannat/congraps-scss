@@ -168,4 +168,13 @@ img {
   line-height: 38px;
   color: #505e78;
 }
+
+#application .application-content p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #505e78;
+  width: 40%;
+  margin: 15px auto 50px auto;
+}
 /*# sourceMappingURL=main.css.map */
