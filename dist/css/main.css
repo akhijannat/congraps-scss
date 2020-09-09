@@ -147,7 +147,7 @@ img {
 }
 
 .color-primary {
-  color: #589CE8;
+  color: #589ce8;
 }
 
 .font-bold {
@@ -160,5 +160,12 @@ img {
 
 #application {
   text-align: center;
+}
+
+#application .application-content h2 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 38px;
+  color: #505e78;
 }
 /*# sourceMappingURL=main.css.map */
