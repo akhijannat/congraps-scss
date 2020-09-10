@@ -232,6 +232,7 @@ img {
 #information {
   margin-top: 100px;
   position: relative;
+  text-align: center;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(19.24%, rgba(231, 236, 253, 0)), color-stop(79.17%, #e7ecfd));
   background: linear-gradient(180deg, rgba(231, 236, 253, 0) 19.24%, #e7ecfd 79.17%);
 }
