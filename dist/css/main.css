@@ -202,14 +202,20 @@ img {
   -webkit-box-shadow: 0px 2px 5px rgba(48, 89, 135, 0.27);
           box-shadow: 0px 2px 5px rgba(48, 89, 135, 0.27);
   border-radius: 10px;
-  padding: 35px 20px;
+  padding: 40px 20px;
   margin: 10px;
   -webkit-transition: .5s;
   transition: .5s;
+  width: 210px;
 }
 
 #application .application-content .app-box .box a {
   color: #fff;
+  text-transform: uppercase;
+}
+
+#application .application-content .app-box .box h4 {
+  font-size: 14px;
 }
 
 #application .application-content .app-box .box:hover {
