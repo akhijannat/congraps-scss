@@ -194,8 +194,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: .5s;
-  transition: .5s;
+  margin-bottom: 80px;
 }
 
 #application .application-content .app-box .box {
@@ -203,6 +202,19 @@ img {
   -webkit-box-shadow: 0px 2px 5px rgba(48, 89, 135, 0.27);
           box-shadow: 0px 2px 5px rgba(48, 89, 135, 0.27);
   border-radius: 10px;
-  padding: 20px 10px;
+  padding: 35px 20px;
+  margin: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#application .application-content .app-box .box a {
+  color: #fff;
+}
+
+#application .application-content .app-box .box:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  background: linear-gradient(102deg, #ffa531 5.44%, #fe7d4a 91.82%);
 }
 /*# sourceMappingURL=main.css.map */
