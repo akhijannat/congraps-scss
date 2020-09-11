@@ -245,19 +245,23 @@ img {
 }
 
 #information .company {
-  padding-bottom: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
 }
 
 #information .company div {
   margin-bottom: 70px;
-  width: 27%;
+  width: 23%;
+  margin-right: 30px;
   padding: 0px 10px;
   height: 140px;
   opacity: .5;
