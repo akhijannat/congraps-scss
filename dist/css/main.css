@@ -237,6 +237,13 @@ img {
   background: linear-gradient(180deg, rgba(231, 236, 253, 0) 19.24%, #e7ecfd 79.17%);
 }
 
+#information h2 {
+  font-size: 20px;
+  margin-bottom: 70px;
+  line-height: 28px;
+  color: #505e78;
+}
+
 #information .company {
   padding-bottom: 150px;
   display: -webkit-box;
