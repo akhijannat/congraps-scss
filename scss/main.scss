@@ -114,4 +114,39 @@ img {
   position: relative;
   text-align: center;
   background: linear-gradient(180deg, rgba(231, 236, 253, 0) 19.24%, #e7ecfd 79.17%);
+
+
+  .company {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+
+      div {
+        margin-bottom: 70px;
+        width: 27%;
+        padding: 0px 10px;
+        height: 170px;
+        opacity: .5;
+        border: 2px solid #589ce8;
+        box-sizing: border-box;
+        border-radius: 15px;
+
+
+        img {
+          transform: translateY(-25px);
+          margin: 0 auto;
+          background-color: #fff;
+          border-radius: 40px;
+          box-shadow: 0px 4px 22px rgba(48,89,135,.25);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+        }
+      }
+  }
+ 
 }
