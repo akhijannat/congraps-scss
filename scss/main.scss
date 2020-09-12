@@ -175,9 +175,16 @@ img {
   .company-count {
     
     ul {
+      background: rgb(255, 255, 255);
+      box-shadow: rgba(48, 89, 135, 0.25) 0px 4px 22px;
+      border-radius: 10px;
       display: flex;
       justify-content: space-around;
-      align-items: center;
+      padding: 20px 0px;
+
+      img {
+        width: 25px;
+      }
     }
   }
  
