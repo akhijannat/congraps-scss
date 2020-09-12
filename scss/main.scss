@@ -173,7 +173,7 @@ img {
   }
 
   .company-count {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 
 
@@ -189,10 +189,24 @@ img {
         width: 25px;
       }
 
+
       h3 {
         font-size: 28px;
         line-height: 25px;
+        margin-top: 5px;
         color: rgb(80, 94, 120);
+      }
+
+      span {
+        margin-top: 5px;
+        font-size: 12px;
+        color: rgb(80, 94, 120);
+      }
+
+      .mid-li {
+        border-left: 1px solid #0000ff;
+        border-right: 1px solid #0000ff;
+        padding: 0 60px;
       }
     }
   }

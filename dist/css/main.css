@@ -4,6 +4,7 @@
   right: 0;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+  z-index: 100;
 }
 
 #navbar .nav {
@@ -306,7 +307,7 @@ img {
 }
 
 #information .company-count {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -330,6 +331,19 @@ img {
 #information .company-count ul h3 {
   font-size: 28px;
   line-height: 25px;
+  margin-top: 5px;
   color: #505e78;
+}
+
+#information .company-count ul span {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #505e78;
+}
+
+#information .company-count ul .mid-li {
+  border-left: 1px solid #0000ff;
+  border-right: 1px solid #0000ff;
+  padding: 0 60px;
 }
 /*# sourceMappingURL=main.css.map */
