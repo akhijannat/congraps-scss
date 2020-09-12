@@ -326,4 +326,10 @@ img {
 #information .company-count ul img {
   width: 25px;
 }
+
+#information .company-count ul h3 {
+  font-size: 28px;
+  line-height: 25px;
+  color: #505e78;
+}
 /*# sourceMappingURL=main.css.map */
