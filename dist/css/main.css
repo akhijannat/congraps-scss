@@ -257,6 +257,7 @@ img {
           align-items: center;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
+  padding-bottom: 60px;
 }
 
 #information .company div {
@@ -309,6 +310,11 @@ img {
 #information .company-count {
   width: 60%;
   margin: 0 auto;
+  position: absolute;
+  -webkit-transform: translate3d(-50%, -50%, 0px);
+          transform: translate3d(-50%, -50%, 0px);
+  left: 50%;
+  top: 40%;
 }
 
 #information .company-count ul {

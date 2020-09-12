@@ -129,6 +129,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
+    padding-bottom: 60px;
 
 
       div {
@@ -175,6 +176,10 @@ img {
   .company-count {
     width: 60%;
     margin: 0 auto;
+    position: absolute;
+    transform: translate3d(-50%, -50%, 0px);
+    left: 50%;
+    top: 40%;
 
 
     ul {
