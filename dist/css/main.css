@@ -305,6 +305,11 @@ img {
   margin-top: 10px;
 }
 
+#information .company-count {
+  width: 50%;
+  margin: 0 auto;
+}
+
 #information .company-count ul {
   background: white;
   -webkit-box-shadow: rgba(48, 89, 135, 0.25) 0px 4px 22px;
@@ -315,7 +320,7 @@ img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 20px 0px;
+  padding: 25px 30px;
 }
 
 #information .company-count ul img {
