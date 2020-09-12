@@ -233,8 +233,8 @@ img {
   margin-top: 70px;
   position: relative;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.24%, rgba(231, 236, 253, 0)), color-stop(50.17%, #e7ecfd));
-  background: linear-gradient(180deg, rgba(231, 236, 253, 0) 1.24%, #e7ecfd 50.17%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.24%, rgba(231, 236, 253, 0)), color-stop(40.17%, #e7ecfd));
+  background: linear-gradient(180deg, rgba(231, 236, 253, 0) 1.24%, #e7ecfd 40.17%);
 }
 
 #information h2 {
