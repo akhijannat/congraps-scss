@@ -220,15 +220,34 @@ img {
 // What We Do Style
 
 #whatToDo {
-
+  margin-top: 170px;
   .todo-content {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 150px;
     align-items: center;
+    width: 70%;
+    margin: 0 auto;
 
+    .text {
+      h2 {
+      font-size: 23px;
+      line-height: 38px;
+      margin-bottom: 25px;
+      color: #505e78;
+      }
+      p {
+        color: #505e78;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+      }
+    }
 
+    .image {
+      width: 350px;
+    }
 
-
-    
   }
 }

@@ -352,14 +352,39 @@ img {
   padding: 0 60px;
 }
 
+#whatToDo {
+  margin-top: 170px;
+}
+
 #whatToDo .todo-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  grid-gap: 150px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#whatToDo .todo-content .text h2 {
+  font-size: 23px;
+  line-height: 38px;
+  margin-bottom: 25px;
+  color: #505e78;
+}
+
+#whatToDo .todo-content .text p {
+  color: #505e78;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#whatToDo .todo-content .image {
+  width: 350px;
 }
 /*# sourceMappingURL=main.css.map */
