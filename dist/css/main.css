@@ -362,9 +362,6 @@ img {
   -ms-grid-columns: 2fr 1fr;
       grid-template-columns: 2fr 1fr;
   grid-gap: 150px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 70%;
   margin: 0 auto;
 }
