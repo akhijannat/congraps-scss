@@ -235,6 +235,16 @@ img {
       line-height: 38px;
       margin-bottom: 25px;
       color: #505e78;
+
+
+      b {
+        font-size: 65px;
+        font-weight: bold;
+        position: absolute;
+        color: #E7ECFD;
+        left: 12%;
+        z-index: -1;
+      }
       }
       p {
         color: #505e78;
