@@ -353,7 +353,7 @@ img {
 }
 
 #whatToDo {
-  margin-top: 170px;
+  margin-top: 160px;
 }
 
 #whatToDo .todo-content {
@@ -374,6 +374,15 @@ img {
   line-height: 38px;
   margin-bottom: 25px;
   color: #505e78;
+}
+
+#whatToDo .todo-content .text h2 b {
+  font-size: 65px;
+  font-weight: bold;
+  position: absolute;
+  color: #E7ECFD;
+  left: 12%;
+  z-index: -1;
 }
 
 #whatToDo .todo-content .text p {
