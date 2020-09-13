@@ -351,4 +351,15 @@ img {
   border-right: 1px solid #9494ec;
   padding: 0 60px;
 }
+
+#whatToDo .todo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
