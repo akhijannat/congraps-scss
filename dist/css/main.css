@@ -401,8 +401,8 @@ img {
 #theProblem .theProblem-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 150px;
   width: 70%;
   margin: 0 auto;
