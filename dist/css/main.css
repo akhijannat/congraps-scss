@@ -415,7 +415,7 @@ img {
   color: #505e78;
 }
 
-#theProblem .theProblem-content .text h2 b {
+#theProblem .theProblem-content .text h2 .number {
   font-size: 65px;
   font-weight: bold;
   position: absolute;
