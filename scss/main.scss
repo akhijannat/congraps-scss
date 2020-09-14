@@ -260,3 +260,47 @@ img {
 
   }
 }
+
+// The Problem Style
+
+#theProblem {
+  margin-top: 160px;
+  .theProblem-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 150px;
+    width: 70%;
+    margin: 0 auto;
+
+    .text {
+      h2 {
+      font-size: 23px;
+      line-height: 38px;
+      margin-bottom: 25px;
+      color: #505e78;
+
+
+      b {
+        font-size: 65px;
+        font-weight: bold;
+        position: absolute;
+        color: #E7ECFD;
+        left: 12%;
+        z-index: -1;
+      }
+      }
+      p {
+        color: #505e78;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+      }
+    }
+
+    .image {
+      width: 350px;
+    }
+
+  }
+}

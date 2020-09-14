@@ -393,4 +393,46 @@ img {
 #whatToDo .todo-content .image {
   width: 350px;
 }
+
+#theProblem {
+  margin-top: 160px;
+}
+
+#theProblem .theProblem-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  grid-gap: 150px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#theProblem .theProblem-content .text h2 {
+  font-size: 23px;
+  line-height: 38px;
+  margin-bottom: 25px;
+  color: #505e78;
+}
+
+#theProblem .theProblem-content .text h2 b {
+  font-size: 65px;
+  font-weight: bold;
+  position: absolute;
+  color: #E7ECFD;
+  left: 12%;
+  z-index: -1;
+}
+
+#theProblem .theProblem-content .text p {
+  color: #505e78;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#theProblem .theProblem-content .image {
+  width: 350px;
+}
 /*# sourceMappingURL=main.css.map */
