@@ -221,6 +221,12 @@ img {
 
 #whatToDo {
   margin-top: 160px;
+  
+
+  :after {
+    background: url(/dist/images/Vector\ 2.png);
+  }
+
   .todo-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
