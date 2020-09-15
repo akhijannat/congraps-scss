@@ -221,10 +221,12 @@ img {
 
 #whatToDo {
   margin-top: 160px;
-  
+  position: relative;
 
   :after {
-    background: url(/dist/images/Vector\ 2.png);
+    content: "";
+    position: absolute;
+    background: url(../dist/images/Vector2.png);
   }
 
   .todo-content {

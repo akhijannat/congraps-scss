@@ -354,6 +354,13 @@ img {
 
 #whatToDo {
   margin-top: 160px;
+  position: relative;
+}
+
+#whatToDo :after {
+  content: "";
+  position: absolute;
+  background: url(../dist/images/Vector2.png);
 }
 
 #whatToDo .todo-content {
