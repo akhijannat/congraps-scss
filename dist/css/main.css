@@ -172,8 +172,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .ways-btns a {
@@ -187,6 +188,8 @@ img {
   transition: all 0.2s ease 0s;
   color: #589ce8;
   outline: none !important;
+  margin-right: 20px;
+  margin-top: 45px;
 }
 
 #application {

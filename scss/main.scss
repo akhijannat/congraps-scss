@@ -45,7 +45,7 @@ img {
 .ways-btns {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   a {
     min-width: fit-content;
@@ -55,6 +55,8 @@ img {
     transition: all 0.2s ease 0s;
     color: rgb(88, 156, 232);
     outline: none !important;
+    margin-right: 20px;
+    margin-top: 45px;
   }
 }
 
