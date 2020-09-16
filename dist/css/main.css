@@ -165,6 +165,27 @@ img {
   margin-top: 100px;
 }
 
+.ways-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ways-btns a {
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: 1px solid #61a9f6;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  color: #589ce8;
+  outline: none !important;
+}
+
 #application {
   text-align: center;
 }
@@ -392,15 +413,6 @@ img {
 
 #whatToDo .todo-content .image {
   width: 350px;
-}
-
-.bg {
-  position: relative;
-}
-
-.bg ::after {
-  position: absolute;
-  background: url(../images/sbg.png) no-repeat center center/cover;
 }
 
 #theProblem {

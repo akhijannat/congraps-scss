@@ -42,6 +42,21 @@ img {
   margin-top: 100px;
 }
 
+.ways-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  a {
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(97, 169, 246);
+    transition: all 0.2s ease 0s;
+    color: rgb(88, 156, 232);
+    outline: none !important;
+  }
+}
+
 // BODY SECTION STYLE
 #application {
   text-align: center;
