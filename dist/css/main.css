@@ -470,5 +470,23 @@ img {
 
 #accessApplication {
   background: #E7ECFD;
+  text-align: center;
+}
+
+#accessApplication h3 {
+  padding-top: 70px;
+  font-size: 25px;
+  line-height: 38px;
+  color: #505e78;
+}
+
+#accessApplication p {
+  color: #505e78;
+  font-style: normal;
+  font-weight: normal;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 150%;
 }
 /*# sourceMappingURL=main.css.map */
