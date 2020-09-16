@@ -221,13 +221,6 @@ img {
 
 #whatToDo {
   margin-top: 160px;
-  // position: relative;
-
-  // :after {
-  //   content: "";
-  //   position: absolute;
-  //   background: url(../dist/images/Vector2.png);
-  // }
 
   .todo-content {
     display: grid;
@@ -269,10 +262,13 @@ img {
   }
 }
 
+
 // The Problem Style
 
 #theProblem {
   margin-top: 160px;
+  // background: url(../images/sbg.png) no-repeat center center/cover;
+
   .theProblem-content {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -394,6 +394,15 @@ img {
   width: 350px;
 }
 
+.bg {
+  position: relative;
+}
+
+.bg ::after {
+  position: absolute;
+  background: url(../images/sbg.png) no-repeat center center/cover;
+}
+
 #theProblem {
   margin-top: 160px;
 }
