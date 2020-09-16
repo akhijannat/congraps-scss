@@ -177,6 +177,9 @@ img {
 }
 
 .ways-btns a {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   padding: 15px 40px;
   border-radius: 30px;
   border: 1px solid #61a9f6;
