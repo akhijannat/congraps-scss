@@ -344,7 +344,7 @@ img {
     color: #505e78;
   }
 
-  p {
+  .acc-pra {
     color: #505e78;
     font-style: normal;
     font-weight: normal;
@@ -364,9 +364,12 @@ img {
 
 
     .purchase-item {
-      cursor: pointer;
-      transform: translateY(-20px);
-      transition: .5s;
+      
+      &:hover {
+        cursor: pointer;
+        transform: translateY(-20px);
+        transition: .5s;
+      }
 
       .item-top {
         display: flex;
