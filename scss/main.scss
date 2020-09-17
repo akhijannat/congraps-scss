@@ -365,16 +365,40 @@ img {
 
     .purchase-item {
       border: 3px solid #444aaa;
+      cursor: pointer;
+      transform: translateY(-20px);
+      transition: .5s;
 
-      img {
-        // position: absolute;
-        top: 0;
-        height: 66px;
-        transform: translateY(-25px);
+      .item-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-flow: wrap;
+        background-color: #5362a7;
+        border-radius: 10px 10px 0px 0px;
+        padding: 50px 0px 20px 0px;
+
+    img {
+      // position: absolute;
+      top: 0;
+      height: 66px;
+      transform: translateY(-25px);
       }
 
+      span {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+      }
+   }
 
-    }
+
+
+   }
   }
 
 
