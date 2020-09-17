@@ -524,7 +524,7 @@ img {
       flex-flow: wrap;
   background-color: #5362a7;
   border-radius: 10px 10px 0px 0px;
-  padding: 50px 0px 20px 0px;
+  padding-bottom: 20px;
 }
 
 #accessApplication .purchase_list .purchase-item .item-top img {
@@ -541,5 +541,9 @@ img {
   text-align: center;
   width: 100%;
   color: #fff;
+}
+
+#accessApplication .purchase_list .purchase-item .item-top .price {
+  font-size: 24px;
 }
 /*# sourceMappingURL=main.css.map */
