@@ -501,7 +501,7 @@ img {
 }
 
 #accessApplication .purchase_list .purchase-item {
-  background: #444aaa;
+  border: 3px solid #444aaa;
 }
 
 #accessApplication .purchase_list .purchase-item img {
