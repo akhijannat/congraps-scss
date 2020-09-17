@@ -573,4 +573,30 @@ img {
   font-size: 14px;
   color: #505e78;
 }
+
+#accessApplication .purchase_list .purchase-item .white a {
+  height: 50px;
+  /* display: flex; */
+  /* -webkit-box-align: center; */
+  /* align-items: center; */
+  /* -webkit-box-pack: center; */
+  /* justify-content: center; */
+  padding: 15px 40px;
+  border-radius: 30px;
+  /* margin-top: 10px; */
+  /* margin-left: unset; */
+  margin-bottom: 0px;
+  border: 1px solid #55d480;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  /* cursor: pointer; */
+  /* text-align: center; */
+  text-decoration: none;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  background: linear-gradient(165.52deg, #55d480 13.19%, #55d480 72.85%);
+  color: white;
+  outline: none !important;
+}
 /*# sourceMappingURL=main.css.map */
