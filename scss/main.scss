@@ -352,5 +352,30 @@ img {
     margin: 0 auto;
     font-size: 14px;
     line-height: 150%;
+    padding: 20px 0px 40px 0px;
   }
+
+  .purchase_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 25px 0px 50px 0px;
+
+
+
+    .purchase-item {
+      background: #444aaa;
+
+      img {
+        // position: absolute;
+        top: 0;
+        height: 66px;
+        transform: translateY(-25px);
+      }
+
+
+    }
+  }
+
+
 }
