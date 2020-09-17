@@ -496,12 +496,11 @@ img {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
   padding: 25px 0px 50px 0px;
 }
 
 #accessApplication .purchase_list .purchase-item {
-  border: 3px solid #444aaa;
   cursor: pointer;
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
@@ -524,10 +523,11 @@ img {
       flex-flow: wrap;
   background-color: #5362a7;
   border-radius: 10px 10px 0px 0px;
-  padding-bottom: 20px;
+  padding: 50px 0px 20px 0px;
 }
 
 #accessApplication .purchase_list .purchase-item .item-top img {
+  position: absolute;
   top: 0;
   height: 66px;
   -webkit-transform: translateY(-25px);
@@ -545,5 +545,9 @@ img {
 
 #accessApplication .purchase_list .purchase-item .item-top .price {
   font-size: 24px;
+}
+
+#accessApplication .purchase_list .purchase-item .white {
+  background: #fff;
 }
 /*# sourceMappingURL=main.css.map */
