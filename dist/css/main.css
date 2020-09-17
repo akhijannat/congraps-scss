@@ -498,6 +498,8 @@ img {
       grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   padding: 25px 0px 50px 0px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 #accessApplication .purchase_list .purchase-item:hover {
@@ -549,5 +551,26 @@ img {
 
 #accessApplication .purchase_list .purchase-item .white {
   background: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 220px;
+  position: relative;
+}
+
+#accessApplication .purchase_list .purchase-item .white p {
+  padding: 0px 5px;
+  font-size: 14px;
+  color: #505e78;
 }
 /*# sourceMappingURL=main.css.map */

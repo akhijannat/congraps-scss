@@ -18,6 +18,7 @@ body {
   margin: 0 auto;
 }
 
+
 ul {
   list-style: none;
 }
@@ -360,6 +361,8 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     padding: 25px 0px 50px 0px;
+    width: 85%;
+    margin: 0 auto;
 
 
 
@@ -405,6 +408,18 @@ img {
 
    .white {
      background: #fff;
+     flex-direction: column;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 220px;
+     position: relative;
+
+     p {
+      padding: 0px 5px;
+      font-size: 14px;
+      color: #505e78;
+     }
    }
 
 
