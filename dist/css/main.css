@@ -522,6 +522,12 @@ img {
   transition: .5s;
 }
 
+#accessApplication .purchase_list .purchase-item:hover .item-top span {
+  color: #FFAC24;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 #accessApplication .purchase_list .purchase-item .item-top {
   display: -webkit-box;
   display: -ms-flexbox;

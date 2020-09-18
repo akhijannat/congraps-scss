@@ -383,6 +383,11 @@ img {
         transition: .5s;
       }
 
+      &:hover .item-top span {
+        color: #FFAC24;
+        transition: all .3s ease-in-out;
+      }
+
       .item-top {
         display: flex;
         justify-content: center;
