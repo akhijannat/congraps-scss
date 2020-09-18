@@ -367,6 +367,9 @@ img {
 
 
     .purchase-item {
+      box-shadow: 0px 3px 15px rgba(48,89,135,.25);
+      border-radius: 10px;
+      transition: .5s;
       
       &:hover {
         cursor: pointer;
@@ -414,6 +417,7 @@ img {
      align-items: center;
      height: 220px;
      position: relative;
+     border-radius: 0px 0px 10px 10px;
 
      p {
       padding: 0px 5px;
@@ -421,10 +425,10 @@ img {
       color: #505e78;
      }
 
-     a {
+     .btn {
       border-radius: 30px;
       border: 1px solid rgb(85, 212, 128);
-      transition: all 0.2s ease 0s;
+      transition: all 0.2s ease-in-out;
       min-width: fit-content;
       background: linear-gradient(165.52deg, rgb(85, 212, 128) 13.19%, rgb(85, 212, 128) 72.85%);
       display: flex;
@@ -434,6 +438,14 @@ img {
       margin-bottom: 10px;
       color: #fff;
       cursor: pointer;
+
+
+      &:hover {
+        transform: scale(1.05);
+        padding-left: 36px;
+        box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px, rgba(0, 0, 0, 0.3) 0px 2px 4px -1px;
+      }
+
      }
    }
 
