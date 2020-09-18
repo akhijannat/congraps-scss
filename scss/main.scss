@@ -422,26 +422,17 @@ img {
      }
 
      a {
-      height: 50px; 
-      display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      justify-content: center;
-      padding: 15px 40px;
       border-radius: 30px;
-      /* margin-top: 10px; */
-      /* margin-left: unset; */
-      margin-bottom: 0px;
       border: 1px solid rgb(85, 212, 128);
       transition: all 0.2s ease 0s;
-      /* cursor: pointer; */
-      /* text-align: center; */
-      text-decoration: none;
       min-width: fit-content;
       background: linear-gradient(165.52deg, rgb(85, 212, 128) 13.19%, rgb(85, 212, 128) 72.85%);
-      color: rgb(255, 255, 255);
-      outline: none !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3px 3px 3px 30px;
+      margin-bottom: 10px;
+      color: #fff;
      }
    }
 
