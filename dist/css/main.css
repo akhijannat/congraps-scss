@@ -682,4 +682,10 @@ img {
   height: 50px;
   margin-bottom: 10px;
 }
+
+#accessApplication .karma-free .karma-credit .credit span {
+  font-size: 14px;
+  line-height: 16px;
+  color: #505e78;
+}
 /*# sourceMappingURL=main.css.map */
