@@ -506,6 +506,12 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .img01 {
+          margin-bottom: 0;
+          width: 65px;
+        }
+
         img {
           height: 50px;
           margin-bottom: 10px;

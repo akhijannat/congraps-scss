@@ -678,6 +678,11 @@ img {
           align-items: center;
 }
 
+#accessApplication .karma-free .karma-credit .credit .img01 {
+  margin-bottom: 0;
+  width: 65px;
+}
+
 #accessApplication .karma-free .karma-credit .credit img {
   height: 50px;
   margin-bottom: 10px;
