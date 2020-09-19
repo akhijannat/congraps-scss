@@ -628,4 +628,11 @@ img {
 #accessApplication .purchase_list .purchase-item .white .btn span {
   margin-right: 10px;
 }
+
+#accessApplication .karma-free {
+  text-align: center;
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=main.css.map */
