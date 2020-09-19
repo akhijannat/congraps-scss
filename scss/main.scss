@@ -496,6 +496,17 @@ img {
       color: #505e78;
     }
 
+    .karma-credit {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+
+      img {
+        height: 50px;
+      }
+    }
+
 
 
   }

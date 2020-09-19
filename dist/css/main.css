@@ -653,4 +653,19 @@ img {
   margin: 0 auto;
   color: #505e78;
 }
+
+#accessApplication .karma-free .karma-credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#accessApplication .karma-free .karma-credit img {
+  height: 50px;
+}
 /*# sourceMappingURL=main.css.map */
