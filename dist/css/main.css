@@ -693,4 +693,11 @@ img {
   line-height: 16px;
   color: #505e78;
 }
+
+#accessApplication .karma-free .bar {
+  height: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background: #fe7d4a;
+}
 /*# sourceMappingURL=main.css.map */
