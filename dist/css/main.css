@@ -695,9 +695,10 @@ img {
 }
 
 #accessApplication .karma-free .bar {
-  height: 10px;
+  height: 40px;
   width: 80%;
   margin: 0 auto;
+  margin-top: 25px;
   background: #DAFFE7;
 }
 /*# sourceMappingURL=main.css.map */
