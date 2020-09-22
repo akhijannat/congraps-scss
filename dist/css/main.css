@@ -588,7 +588,7 @@ img {
 }
 
 #accessApplication .purchase_list .purchase-item .white p {
-  padding: 0px 5px;
+  padding: 0px 10px;
   font-size: 14px;
   color: #505e78;
 }
@@ -645,11 +645,10 @@ img {
   margin-bottom: 20px;
 }
 
-#accessApplication .karma-free p {
+#accessApplication .karma-free .karma-pra {
   font-size: 14px;
   line-height: 150%;
   width: 90%;
-  padding-bottom: 50px;
   margin: 0 auto;
   color: #505e78;
 }
@@ -663,6 +662,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 50px;
 }
 
 #accessApplication .karma-free .karma-credit .credit {
@@ -766,33 +766,8 @@ img {
   color: white;
 }
 
-#accessApplication .karma-free .card-list .card-item .item-top .white {
-  background: #fff;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 220px;
-  position: relative;
-  border-radius: 0px 0px 10px 10px;
-}
-
-#accessApplication .karma-free .card-list .card-item .item-top .white span {
+#accessApplication .karma-free .card-list .card-item .item-top .white p {
   font-size: 16px !important;
-  line-height: 150%;
-  text-align: center;
-  padding: 18px 24px;
-  color: #505e78;
-  margin-bottom: 0px;
-  max-width: 290px;
+  padding: 20px 30px 0 30px !important;
 }
 /*# sourceMappingURL=main.css.map */
