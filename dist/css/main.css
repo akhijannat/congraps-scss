@@ -709,7 +709,7 @@ img {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   padding: 25px 0px 50px 0px;
   width: 85%;
   margin: 0 auto;
@@ -755,6 +755,15 @@ img {
   height: 66px;
   -webkit-transform: translateY(-25px);
           transform: translateY(-25px);
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top span {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 1em;
+  margin-top: 0px;
+  font-weight: bold;
+  color: white;
 }
 
 #accessApplication .karma-free .card-list .card-item .item-top .white {
