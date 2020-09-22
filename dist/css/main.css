@@ -766,8 +766,23 @@ img {
   color: white;
 }
 
-#accessApplication .karma-free .card-list .card-item .item-top .white p {
-  font-size: 16px !important;
-  padding: 20px 30px 0 30px !important;
+#accessApplication .karma-free .card-list .card-item .white {
+  padding-bottom: 20px;
+}
+
+#accessApplication .karma-free .card-list .card-item .white p {
+  font-size: 16px;
+  line-height: 150%;
+  padding: 18px 24px;
+  color: #505e78;
+  margin-bottom: 0px;
+}
+
+#accessApplication .karma-free .card-list .card-item .white a {
+  border: 0px;
+  font-size: 16px;
+  line-height: 18px;
+  background: unset;
+  color: #589ce8;
 }
 /*# sourceMappingURL=main.css.map */
