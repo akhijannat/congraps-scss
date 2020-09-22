@@ -711,7 +711,7 @@ img {
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   padding: 25px 0px 50px 0px;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -784,5 +784,15 @@ img {
   height: 220px;
   position: relative;
   border-radius: 0px 0px 10px 10px;
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top .white span {
+  font-size: 16px !important;
+  line-height: 150%;
+  text-align: center;
+  padding: 18px 24px;
+  color: #505e78;
+  margin-bottom: 0px;
+  max-width: 290px;
 }
 /*# sourceMappingURL=main.css.map */
