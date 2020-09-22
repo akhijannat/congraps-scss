@@ -198,7 +198,7 @@ img {
 }
 
 .btn-bg {
-  background: #4798ED !important;
+  background: #4798ed !important;
 }
 
 #application {
@@ -241,8 +241,8 @@ img {
   border-radius: 10px;
   padding: 30px 20px;
   margin: 15px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   width: 200px;
 }
 
@@ -302,7 +302,7 @@ img {
   margin-right: 30px;
   padding: 0px 10px;
   height: 140px;
-  opacity: .5;
+  opacity: 0.5;
   border: 2px solid #589ce8;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -413,7 +413,7 @@ img {
   font-size: 65px;
   font-weight: bold;
   position: absolute;
-  color: #E7ECFD;
+  color: #e7ecfd;
   left: 12%;
   z-index: -1;
 }
@@ -455,7 +455,7 @@ img {
   font-size: 65px;
   font-weight: bold;
   position: absolute;
-  color: #E7ECFD;
+  color: #e7ecfd;
   right: 44%;
   z-index: -1;
 }
@@ -473,7 +473,7 @@ img {
 }
 
 #accessApplication {
-  background: #E7ECFD;
+  background: #e7ecfd;
   text-align: center;
 }
 
@@ -510,22 +510,22 @@ img {
   -webkit-box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
           box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
   border-radius: 10px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #accessApplication .purchase_list .purchase-item:hover {
   cursor: pointer;
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #accessApplication .purchase_list .purchase-item:hover .item-top span {
-  color: #FFAC24;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  color: #ffac24;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #accessApplication .purchase_list .purchase-item .item-top {
@@ -699,8 +699,81 @@ img {
   width: 80%;
   margin: 0 auto;
   margin-top: 25px;
-  background: #DAFFE7;
+  background: #daffe7;
   border-radius: 5px;
   margin-bottom: 90px;
+}
+
+#accessApplication .karma-free .card-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 25px 0px 50px 0px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#accessApplication .karma-free .card-list .card-item {
+  -webkit-box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
+          box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#accessApplication .karma-free .card-list .card-item:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  background-color: #5362a7;
+  border-radius: 10px 10px 0px 0px;
+  padding: 50px 0px 20px 0px;
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top img {
+  position: absolute;
+  top: 0;
+  height: 66px;
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top .white {
+  background: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 220px;
+  position: relative;
+  border-radius: 0px 0px 10px 10px;
 }
 /*# sourceMappingURL=main.css.map */
