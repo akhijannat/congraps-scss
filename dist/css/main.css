@@ -716,8 +716,8 @@ img {
 }
 
 #accessApplication .karma-free .card-list .card-item {
-  -webkit-box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
-          box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
+  -webkit-box-shadow: rgba(48, 89, 135, 0.25) 0px 1px 5px;
+          box-shadow: rgba(48, 89, 135, 0.25) 0px 1px 5px;
   border-radius: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -729,6 +729,8 @@ img {
           transform: translateY(-20px);
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-box-shadow: rgba(48, 89, 135, 0.25) 0px 3px 15px;
+          box-shadow: rgba(48, 89, 135, 0.25) 0px 3px 15px;
 }
 
 #accessApplication .karma-free .card-list .card-item .item-top {
