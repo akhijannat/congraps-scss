@@ -701,53 +701,6 @@ img {
   margin-top: 25px;
   background: #DAFFE7;
   border-radius: 5px;
-}
-
-#accessApplication .karma-free .card-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 60px;
-}
-
-#accessApplication .karma-free .card-list .card-item {
-  -webkit-box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
-          box-shadow: 0px 3px 15px rgba(48, 89, 135, 0.25);
-  border-radius: 10px;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-#accessApplication .karma-free .card-list .card-item .item-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
-  background-color: #5362a7;
-  border-radius: 10px 10px 0px 0px;
-  padding: 50px 0px 20px 0px;
-}
-
-#accessApplication .karma-free .card-list .card-img {
-  width: 60px;
-  height: 60px;
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 8px solid #4acf6d;
-  background-color: white;
+  margin-bottom: 90px;
 }
 /*# sourceMappingURL=main.css.map */
