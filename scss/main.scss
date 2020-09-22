@@ -515,7 +515,7 @@ img {
       margin-top: 25px;
       background: #daffe7;
       border-radius: 5px;
-      margin-bottom: 90px;
+      margin-bottom: 60px;
     }
 
     // Card list
@@ -564,6 +564,26 @@ img {
             margin-top: 0px;
             font-weight: bold;
             color: white;
+          }
+
+          .card-img {
+            flex-shrink: 0;
+            box-sizing: content-box;
+            display: inline-flex;
+            width: 46px;
+            height: 46px;
+            position: absolute;
+            border-radius: 50%;
+            border: 8px solid rgb(74, 207, 109);
+            background-color: rgb(255, 255, 255);
+            transform: translateY(-50%);
+            top: 0;
+
+
+            img {
+              height: 30px;
+              top: 33px;
+            }
           }
 
           

@@ -701,7 +701,7 @@ img {
   margin-top: 25px;
   background: #daffe7;
   border-radius: 5px;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 #accessApplication .karma-free .card-list {
@@ -766,6 +766,30 @@ img {
   margin-top: 0px;
   font-weight: bold;
   color: white;
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top .card-img {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  border-radius: 50%;
+  border: 8px solid #4acf6d;
+  background-color: white;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 0;
+}
+
+#accessApplication .karma-free .card-list .card-item .item-top .card-img img {
+  height: 30px;
+  top: 33px;
 }
 
 #accessApplication .karma-free .card-list .card-item .white {
