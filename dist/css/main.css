@@ -824,6 +824,7 @@ img {
   margin: 0 auto;
   font-size: 14px;
   color: #505e78;
+  padding: 40px 0 30px 0;
 }
 
 #accessApplication .more-appli .more-appli-btn a {
@@ -834,5 +835,6 @@ img {
   text-transform: uppercase;
   border: 2px solid #589ce8;
   border-radius: 28px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
