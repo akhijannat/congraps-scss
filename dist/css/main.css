@@ -811,4 +811,10 @@ img {
   background: unset;
   color: #589ce8;
 }
+
+#accessApplication .more-appli h2 {
+  font-size: 23px;
+  line-height: 38px;
+  color: #505e78;
+}
 /*# sourceMappingURL=main.css.map */
