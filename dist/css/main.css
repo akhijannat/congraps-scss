@@ -812,6 +812,10 @@ img {
   color: #589ce8;
 }
 
+#accessApplication .more-appli {
+  padding-bottom: 60px;
+}
+
 #accessApplication .more-appli h2 {
   font-size: 23px;
   line-height: 38px;
@@ -836,5 +840,14 @@ img {
   border: 2px solid #589ce8;
   border-radius: 28px;
   font-weight: bold;
+  position: relative;
+}
+
+#accessApplication .more-appli .more-appli-btn a:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  opacity: .5;
+  background-color: #73abec;
 }
 /*# sourceMappingURL=main.css.map */

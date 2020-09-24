@@ -615,6 +615,8 @@ img {
 // Interested in more than just Applications? Style
   .more-appli {
 
+    padding-bottom: 60px;
+
     h2 {
     font-size: 23px;
     line-height: 38px;
@@ -641,6 +643,16 @@ img {
         border: 2px solid #589ce8;
         border-radius: 28px;
         font-weight: bold;
+        position: relative;
+
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 1px;
+          opacity: .5;
+          background-color: #73abec;
+        }
       }
     }
   }
