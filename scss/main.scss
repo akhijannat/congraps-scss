@@ -628,5 +628,18 @@ img {
     font-size: 14px;
     color: #505e78;
     }
+
+    .more-appli-btn {
+      
+      a {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px 40px;
+        color: #589ce8;
+        text-transform: uppercase;
+        border: 2px solid #589ce8;
+        border-radius: 28px;
+      }
+    }
   }
 }
