@@ -1,0 +1,16 @@
+footer {
+    background: #5362A7;
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+        align-items: center;
+
+
+        .list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+    }
+}
