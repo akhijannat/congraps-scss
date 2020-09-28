@@ -837,9 +837,17 @@ footer .footer-content .contact div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
 }
 
 footer .footer-content .contact .social-icon {
+  height: 30px;
+  width: 30px;
   background: #fff;
   border-radius: 50%;
 }
