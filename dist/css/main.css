@@ -853,6 +853,10 @@ footer .footer-content .contact .social-icon {
   border-radius: 50%;
 }
 
+footer p {
+  margin-left: 70px;
+}
+
 * {
   padding: 0;
   margin: 0;
