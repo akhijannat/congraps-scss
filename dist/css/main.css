@@ -833,6 +833,12 @@ footer .footer-content .list li a:hover {
   color: #61a9f6;
 }
 
+footer .footer-content .contact a {
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 * {
   padding: 0;
   margin: 0;

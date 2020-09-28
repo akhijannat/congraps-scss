@@ -35,10 +35,7 @@ footer {
     }
 
     .contact {
-      display: flex;
-      justify-content: space-around;
-
-      .con-link {
+      a {
         background: #fff;
         padding: 10px;
         border-radius: 50%;
