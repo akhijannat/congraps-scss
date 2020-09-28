@@ -833,9 +833,14 @@ footer .footer-content .list li a:hover {
   color: #61a9f6;
 }
 
-footer .footer-content .contact a {
+footer .footer-content .contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-content .contact .social-icon {
   background: #fff;
-  padding: 10px;
   border-radius: 50%;
 }
 
